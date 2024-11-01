@@ -1,0 +1,76 @@
+.tagesmenue {	margin: 0 auto; width: 90%; min-height: 50px;}
+.tagesmenue-title, .tagesmenue-subtitle {	text-align: center; }
+.tagesmenue-subtitle { margin-bottom: 50px; }
+
+.tagesmenue-pdf-button { margin: 0 auto; width: 172px; }
+.tagesmenue-pdf-button a { color: #555; }
+.tagesmenue-pdf-button a:hover { color: #000; }
+.tagesmenue-tmpdf { margin: 20px 0; border: 1px solid #555; text-align: center; padding: 10px 20px; background-color: #555;  color: #fff;}
+.tagesmenue-tmpdf:hover { background-color: #fff; color: #000; }
+.tagesmenue-menucard a { color: #555 }
+.tagesmenue-menucard a:hover { color: #000; }
+
+.tagesmenuebo { margin-bottom: 40px; }
+
+.tagesmenue td, .tagesmenue table { border: 0; }
+
+.tagesmenue-menublock {
+	width: 45%;
+	min-height: 200px; 
+	margin-bottom: 20px;
+	
+	float:left;
+	margin-right: 5%;
+	min-width: 250px;
+}
+.tagesmenue-menuline {
+	border-top: 1px dotted gray;
+	padding-top: 10px;
+}
+
+.tagesmenue-menu-titledetail {
+	width: 65%; float: left;  min-height: 105px;
+}
+.tagesmenue-menu-title { }
+.tagesmenue-menu-detail { }
+.tagesmenue-menu-price { width: 35%; padding-bottom: 20px; float:left; }
+
+.tagesmenue-menucard { float: left; width: 33%; border: 0; text-align: center; }	
+#tinymce .tagesmenue-menucard { float: left; width: 33%; border: 0; text-align: center; }
+#TAGESMENUElogo { display: none; }
+#tinymce #TAGESMENUElogo { display: block; }
+
+.tagesmenue-left .tagesmenue-title { font-weight: bold; }
+.tagesmenue-left .tagesmenue-menu-title { text-align: left; width: 100%; font-weight: bold;}
+.tagesmenue-left .tagesmenue-menublock  { text-align: left; width: 90%; margin-left: 5%;}
+.tagesmenue-left .tagesmenue-menu-titledetail  { text-align: left; }
+.tagesmenue-left .tagesmenue-menu-price { text-align: right; font-weight: bold;}
+.tagesmenue-left .tagesmenue-menuline { border-top: 0; padding-top: 0px; }	
+.tagesmenue-left .tagesmenue-menublock { min-height: 0px; padding-bottom: 10px;}
+	
+	
+.tagesmenue-centered .tagesmenue-title { font-weight: bold; }
+.tagesmenue-centered .tagesmenue-menu-title { width: 100%; font-weight: bold; margin-bottom: 15px;}
+.tagesmenue-centered .tagesmenue-menublock { text-align: center; width: 100%; } 
+.tagesmenue-centered .tagesmenue-menu-titledetail { text-align: center; width: 100%;}
+.tagesmenue-centered .tagesmenue-menu-price { text-align: center; width: 100%; font-weight: bold; padding-top: 10px;}
+.tagesmenue-centered .tagesmenue-menuline { border-top: 0; padding-top: 0px; }	
+.tagesmenue-centered .tagesmenue-menublock { min-height: 10px; padding-bottom: 0px; }
+
+.tagesmenue-left2x .tagesmenue-title { font-weight: bold; }
+.tagesmenue-left2x .tagesmenue-menu-title { text-align: left; font-weight: bold;}
+.tagesmenue-left2x .tagesmenue-menu-titledetail { text-align: left; }
+.tagesmenue-left2x .tagesmenue-menu-price { font-weight: bold; text-align: right; }
+
+.tagesmenue-centered2x .tagesmenue-title { font-weight: bold; }
+.tagesmenue-centered2x .tagesmenue-menu-title { text-align: center; width: 100%; font-weight: bold;}
+.tagesmenue-centered2x .tagesmenue-menu-titledetail { text-align: center; width: 100%;}
+.tagesmenue-centered2x .tagesmenue-menu-price { text-align: center; width: 100%; font-weight: bold; padding-top: 10px;}
+.tagesmenue-centered2x .tagesmenue-menuline { padding-top: 50px; }	
+
+@media only screen and (max-width: 768px) {
+	.tagesmenue-menublock, .tagesmenue-menu-titledetail, .tagesmenue-menu-price { text-align: center !important; padding-top: 10px; width: 100%;}
+	.tagesmenue-menuline { border-top: 0; padding-top: 10px; }	
+	.tagesmenue-menublock { border-bottom: 1px dotted gray; padding-top: 10px; }
+}
+
